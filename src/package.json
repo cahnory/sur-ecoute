@@ -1,0 +1,16 @@
+{
+  "name": "sur-ecoute",
+  "title": "Sur Écoute",
+  "id": "jid1-stfqKoJYBog6OQ@jetpack",
+  "description": "Sur-écoute est une extension pour navigateur dont le but est de lutter contre la surveillance de masse mise en place par la Loi Renseignement.",
+  "author": "",
+  "license": "MIT",
+  "version": "0.2.2",
+  "main": "lib/firefox.js",
+
+  "icon": "icons/icon48.png",
+  "browser_action": {
+    "default_title": "Sur-écoute",
+    "default_icon": "icons/icon16.png"
+  }
+}

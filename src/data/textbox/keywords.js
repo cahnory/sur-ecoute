@@ -1,0 +1,12 @@
+/*jslint browser: true, node: true */
+'use strict';
+
+var keywords =  [
+'1984', 'renseignement', 'hollande', 'alerte', 'algorithme', 'anonymous', 'anti', 'GIGN', 'camouflage', 'bot', 'police', 'lulzsec', 'terrorisme', 'hacker', 'hacking', 'hack', 'clone', 'drone', 'crypto', 'cypher', 'data', 'defcon', 'defense', 'dod', 'defence', 'ministre', 'ebomb', 'enigma', 'chiffrement', 'espionage', 'crypto', 'PGP', 'gouvernement', 'infowar', 'sarkozy', 'mailbomb', 'militaire', 'vigipirate', 'missile', 'national', 'nucleaire', 'OTAN', 'nsa', 'password', 'perl-rsa', 'pgp', 'president', 'privacy', 'vie privee', 'propaganda', 'propagande', 'r00t', 'rsa', 's/key', 'sascom', 'satellite', 'scan', 'screening', 'secdef', 'secops', 'secret', 'secure', 'signature', 'sniper', 'special', 'spies', 'espion', 'surveillance', 'system', 'systeme', 'trojan', 'undercover', 'sous couverture', 'virus', 'warfare', 'PJLRenseignement', 'auteur', 'infraction', 'fichier', 'etat', 'conseil', 'justice', 'code', 'procedure', 'penal', 'jihad', 'bombe', 'explosif', 'communiste', 'garage', 'lqdn', 'constitution', 'datacenter', 'nucleaire', 'centrale', 'gaza', 'capitalisme', 'petrole', 'antifa', 'democratie', 'bigbrother', 'charlie', 'jesuischarlie', 'syrie', 'palestine', 'macron', 'ukraine', 'hezbollah', 'ingerence', 'colon', 'civilisation', 'merah', 'afrique', 'algérie', 'allemagne', 'balkans', 'bolivie', 'france', 'hongrie', 'irak', 'iran', 'israël', 'jérusalem', 'kenya', 'kirghizstan', 'kosovo', 'liban', 'liberia', 'libye', 'mali', 'maroc', 'niger', 'qatar', 'somalie', 'suisse', 'tchad', 'al-jazeera', 'Asselineau', 'Atzmon', 'balkany', 'barbier', 'Berruyer', 'Bourgoin', 'bush', 'cahuzac',  	'Chavez', 'Cohen', 'cohn-bendit', 'strauss-kahn', 'fabius', 'Faurisson', 'finkielkraut', 'fourest', 'gates', 'guillon', 'Livernette', 'poutine', 'rockefeller', 'rothschild', 'Séverac', 'Soral', 'Snowden', 'taubira', 'liberation', 'front', 'liberte', 'amesys', 'DGSE', 'DRM', 'DGA', 'DIRISI', 'QOSMOS', 'juge', 'DPI', 'boite noire', 'cazeneuve', 'urvoas', 'defense', 'ministere', 'DGA', 'journaliste'
+];
+
+keywords.forEach(function (keyword, index) {
+  keywords[index] = keyword.replace(/[^a-z0-9]+/gi, '_');
+});
+
+module.exports  = keywords;
